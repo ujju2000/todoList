@@ -1,0 +1,48 @@
+#todo-list { 
+    height : 500px;
+    width  : 300px;
+    list-style-type:  none;
+    margin: 30px auto;
+}
+#todo-list li { 
+    color: beige;
+    font-size: 20px;
+    width  : 300px;
+    padding : 10px;
+    font-weight: 700;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+body {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  input {
+    padding: 8px;
+    /* border : none; */
+    outline: none;
+    border-radius: 10px;
+    padding : 10px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    outline : none;
+    border:none;
+  }
